@@ -1,0 +1,11 @@
+$font-name: 'Roboto', sans-serif;
+$font-weight-regular: 400;
+
+@font-face {
+    font-family: $font-name;
+    font-weight: $font-weight-regular;
+    font-style: normal;
+    src: url("#{$font-path}/#{$font-name}.woff") format("woff"),
+         url("#{$font-path}/#{$font-name}.woff2") format("woff2");
+ }
+ 
